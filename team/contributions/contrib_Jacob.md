@@ -1,0 +1,9 @@
+- Sign in and signup page styling(other than background slideshow from Bryan), aswell as the sign in with google functionality
+- Forgot password page and functionality
+- Firebase settup
+- Searchbar for recipes that integrates with algolia 
+- Created and styled the recipe page(As we added new features such as likes and comments, other people contributed to this page aswell)
+- Created the friends list modal to display user friends and search through them, which the likemodal was based on
+- Added react infinite scroll to main page along with saving scroll position when page is reloaded/navigated back and forth
+- Several bug and qol fixes.
+- Reviewed a large number of PRs

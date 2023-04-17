@@ -1,0 +1,8 @@
+- Refactored post modal into it's own seperate page
+- Made the entire UI mobile friendly
+- Transitioned CSS styling of the entire app from Bootstrap to Tailwind
+- Moved the search bar to the search bar
+- Created the intial structure of the backend API
+- Added caching to the feed, as well as automatic refetching
+- Enabled infinite scroll on the home page to speed up load times
+- Implemented Swagger UI for backend documentation

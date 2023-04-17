@@ -1,0 +1,49 @@
+.imagesContainer {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.picSize {
+  height: 100px;
+  width: 100px;
+  margin-left: 5%;
+}
+
+.picChosen {
+  border: 2px solid black;
+}
+
+.picNotChosen {
+  transition: 0.3s ease;
+}
+
+.picNotChosen:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nameField {
+  margin-bottom: 5%;
+}
+
+.bioField {
+  margin-bottom: 5%;
+}
+
+.backButton {
+  position: fixed;
+  left: 5%;
+  top: 5%;
+  background-color: #DB5642;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+
+}

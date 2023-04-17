@@ -1,0 +1,8 @@
+- Login and Sign Up system with user provided email and password (Not google Sign in) - Full Stack
+- Users are able to add categories to their recipes - Full Stack
+- Recipes can be filtered by category - Front End
+- When clicking on a user, you can visit their profile - Front End
+- Users are able to add, reply, delete, and edit comments associated to a recipe. - Full Stack
+- Comments show below each recipe - Full Stack
+- Added Navbar with navigation links - Front End
+- User authentication routes protection (Not authorized users can't navigate certain pages) - Front End

@@ -1,0 +1,6 @@
+- Create home page template
+- User posts are loaded on their profiles
+- Profile picture, display name, bio stored in Firebase and are displayed on profiles
+- Bio added to Edit Profile
+- Only a few posts are rendered at a time when scrolling
+- Re-styled profile page posts

@@ -1,0 +1,22 @@
+.comments {
+  margin: auto;
+
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.comments-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.comments-container {
+  margin-top: 40px;
+  border: 1px solid #FF8C00;
+  /* border-bottom: 1px solid #FF8C00; */
+  margin-bottom: 40px;
+}
+
+.comment-form-title {
+  font-size: 22px;
+}

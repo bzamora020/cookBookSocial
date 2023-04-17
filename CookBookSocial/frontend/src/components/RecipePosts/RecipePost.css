@@ -1,0 +1,81 @@
+.edit-element {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.save-element {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.iconList{
+    display: flex;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.comment-element {
+  max-width: 20%;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+/* .number-comments {
+  float: left;
+  margin-left: 5%;
+} */
+
+.imgContainer {
+  max-width: 20%;
+  height: auto;
+  display: inline;
+}
+
+.likesContainer {
+  display: flex;
+  width: 15%;
+}
+
+.commentsCon {
+  margin-left: 1%;
+  display: inline;
+}
+
+.numberLikes {
+  display: inline-block;
+  margin-left: 4%;
+}
+.likeIcon {
+  display: inline;
+  cursor: pointer;
+}
+
+.editIcon {
+  display: inline;
+  cursor: pointer;
+  margin-right: 8px;
+  color: black;
+}
+
+.saveIcon {
+  display: inline;
+  cursor: pointer;
+}
+
+.swingAnimation {
+  animation-name: swing;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.likes-element {
+  margin-top: 20px;
+}
+
+.bottomContainer {
+  display: flex;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}

@@ -1,0 +1,15 @@
+.rec-friend-req-btn {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.rec-friend-req-btn:hover {
+    cursor: pointer;
+}
+
+.friend-request-loader-container{
+    padding: 0 75px 0 75px;
+}
+
+
+

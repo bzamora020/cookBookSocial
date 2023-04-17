@@ -1,0 +1,17 @@
+.profile-page {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.friend-button{
+    text-align: justify;
+    margin-right: 15%;
+    padding-top: 15px;
+}
+
+.friend-button > span{
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+- Created the initial React, Express app skeleton
+- Deployed app to Heroku
+- Helped with the post recipe backend.
+- Created the API for the PUT form for editing a recipe.
+- Created the API for the DELETE button for deleting a recipe, and also created the delete button React component.
+- Created APIs with full CRUD functionality for sending, receiving, canceling, and rejecting friend requests.
+- Created APIs for adding and removing friends.  
+- Created the React component for displaying all a user's incoming friend requests.
+- Created the React button component that displays whether to add, send friend request, reject friend request, or remove friend depending on the relationship of the users.
+- Created APIs for getting and resetting Notifications.
+- Created display on the navbar that shows how many notifications a user has, and the notifications reset after visiting the profile page.

@@ -1,0 +1,31 @@
+.comment-form-textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px solid rgb(218, 86, 66);
+}
+
+.comment-form-button {
+  width: 40%;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: rgb(218, 86, 66);
+  border-radius: 8px;
+  color: white;
+  align-self: center;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(203, 70, 49);
+}
+
+.comment-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.comment-form-cancel-button {
+  margin-top: 1%;
+}

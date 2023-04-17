@@ -1,0 +1,24 @@
+.messageContainer {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  background: #ef8d8d;
+  border-radius: 47px;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconStyle {
+  width: 10%;
+  height: 10%;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.errorText {
+  margin-right: 8%;
+  margin-top: 4%;
+}

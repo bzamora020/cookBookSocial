@@ -1,0 +1,175 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2em;
+}
+
+.rectangle {
+    width: 400px;
+    height: auto;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FF8C00;
+    position: absolute;
+}
+
+.topText {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topText h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFields {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f2f2f2;
+}
+
+.submit_button,
+.googleButton {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit_button {
+    background-color: #333333;
+    border: none;
+}
+
+.submit_button:hover {
+    background-color: #444444;
+}
+
+.googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #333;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.googleIcon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.orText {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+
+.slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+   }
+    
+   .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slider 20.5s infinite;
+    background-color: black;
+    opacity: 0.5;
+   }
+    
+   .slider .slide:nth-child(1) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1200&format=pjpg&exif=1&iptc=1https://images.unsplash.com/photo-1591019052241-e4d95a5dc3fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+      animation-delay: 0s;
+   }
+   
+   .slider .slide:nth-child(2) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://www.seriouseats.com/thmb/Dr3t8YeLyIoE7_xKRTaRpRMLzSs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20200430-ramadan-food-spread-shutterstock-68846a902e4c4be3b30d115d3074528f.jpg');
+      animation-delay: -4.1s;
+   }
+   
+   .slider .slide:nth-child(3) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://wallpaperaccess.com/full/5393821.jpg');
+      animation-delay: -8.2s;
+   }
+   
+   .slider .slide:nth-child(4) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://townsquare.media/site/959/files/2019/12/GettyImages-1148155611.jpg');
+      animation-delay: -12.3s;
+   }
+   
+   .slider .slide:nth-child(5) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://images.everydayhealth.com/images/diabetes-friendly-swaps-for-your-holiday-cooking-00-intro-1440x810.jpg?sfvrsn=a2d2c593_1');
+      animation-delay: -16.4s;
+   }
+   
+   
+   @keyframes slider {
+     0%, 15%, 100% {
+       opacity: 1;
+       animation-timing-function: ease;
+       z-index: 0;
+     }
+     20% {
+       opacity: 0;
+       animation-timing-function: step-end;
+       z-index: 0;
+     }
+     95% {
+       opacity: 1;
+       animation-timing-function: step-end;
+       z-index: -1;
+     }
+   }

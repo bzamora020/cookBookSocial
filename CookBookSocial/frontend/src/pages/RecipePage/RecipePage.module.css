@@ -1,0 +1,245 @@
+.recipePage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.recipeTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff8c00;
+  letter-spacing: 2px;
+}
+
+.recipeImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipeImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recipeDescription {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.recipeMetadata {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.recipeMetadataItem {
+  margin-right: 2rem;
+}
+
+.recipeIngredients {
+  margin-bottom: 2rem;
+}
+
+.recipeSubheading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #ff8c00;
+  letter-spacing: 2px;
+}
+
+.recipeIngredientsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipeIngredient {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+}
+
+.recipeIngredient:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.recipeInstructions {
+  margin-bottom: 2rem;
+}
+
+.recipeInstructionsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipeInstruction {
+  counter-increment: step-counter;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+  text-align: left;
+}
+.recipeInstruction:before {
+  content: counter(step-counter) ". ";
+ 
+  left: 0;
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.recipeInstructionsList:before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 1rem;
+}
+.shareButton {
+  background-color: #ff8c00;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.shareButton:hover {
+  background-color: #ff7300;
+}
+.copyBanner {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  max-width: 600px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c72a0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  animation: fadeOut 4s forwards;
+}
+
+  .headeritem {
+    display: flex;
+    justify-content: center;
+    position: relative;   
+  }
+  .titleElement {  
+    margin: 0;
+  }
+  .deleteElement {
+    position: absolute;
+    margin-top: auto;
+    right: 0; 
+    bottom: 10px; 
+  }
+  
+
+
+  .icon {
+    display: inline;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+.iconList {
+  display: flex;
+  margin-bottom: 10px;
+}
+.likesElement {
+  display: flex;
+  align-items: right;
+}
+.editElement {
+  margin-left: 20px;
+  display: flex;
+  align-items: right;
+}
+.saveElement {
+  margin-left: auto;
+  display: flex;
+  align-items: right;
+}
+
+.commentElement {
+  max-width: 20%;
+  margin-left: 15px;
+}
+
+.commentIcon {
+  width: 20%;
+  height: auto;
+  display: inline;
+}
+
+.icon {
+  display: inline;
+  cursor: pointer;
+}
+
+.numLikes {
+  display: inline;
+  cursor: pointer;
+}
+
+.numLikes:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
