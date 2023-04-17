@@ -67,4 +67,33 @@ Known Problems:
 
 #### https://github.com/ucsb-cs148-w23/project-t01-cookbooksocial/blob/main/docs/DEPLOY.md
 
+## App Screenshots
+
+### Login Page
+
+<img width="720" alt="servesUpLogin" src="https://user-images.githubusercontent.com/33767941/232603355-2d82e942-716a-4e8b-b7a6-eeb3701e3505.png">
+
+### Home Page
+
+<img width="720" alt="servesUpHome" src="https://user-images.githubusercontent.com/33767941/232604200-da393904-dad7-4f9f-86e7-099d605e16c0.png">
+
+### Recipe Page
+
+<img width="720" alt="cookBookRecipePage2" src="https://user-images.githubusercontent.com/33767941/232613120-02bf4338-1d65-45ef-94a3-960f7f3aa4b2.png">
+
+
+<img width="720" alt="cookBookRecipePage" src="https://user-images.githubusercontent.com/33767941/232605918-52812d56-c769-4384-b801-817ee65d5f1c.png">
+
+### Comments
+
+<img width="720" alt="servesUpComments" src="https://user-images.githubusercontent.com/33767941/232604273-0d317bba-dea6-4854-b8f9-97b1fd589d7b.png">
+
+
+### Profile Page
+
+<img width="720" alt="cookBookProfilePage" src="https://user-images.githubusercontent.com/33767941/232605645-755525b5-099b-4d42-8d10-46ece0e74ee0.png">
+
+### Edit Profile Page
+
+<img width="720" alt="cookBookEditProfilePage" src="https://user-images.githubusercontent.com/33767941/232613494-76459544-a742-43e6-a811-0f6eaff5a4d5.png">
 
